@@ -1,0 +1,85 @@
+{
+    "weather": {
+      "apis": [
+        {
+          "api": "http://localhost:3000/api/weather/all",
+          "code": "weatherCode",
+          "des": "Retrieve comprehensive weather data for all available locations. This API provides detailed information including temperature, wind speed, humidity, atmospheric pressure, weather conditions, sunrise and sunset times, UV index, and visibility. Perfect for applications that need a complete overview of weather across multiple regions."
+        },
+        {
+          "api": "http://localhost:3000/api/weather/one?city=new delhi",
+          "code": "data code",
+          "des": "Get specific weather data for a particular city. This endpoint delivers detailed weather information such as temperature, wind speed, humidity, atmospheric pressure, weather conditions, sunrise and sunset times, UV index, and visibility for the specified city. Ideal for apps focused on urban weather forecasting."
+        },
+        {
+          "api": "http://localhost:3000/api/weather/one?state=delhi",
+          "code": "weatherCode",
+          "des": "Access weather details for a specific state. This API provides crucial weather metrics including temperature, wind speed, humidity, atmospheric pressure, weather conditions, sunrise and sunset times, UV index, and visibility tailored to the chosen state. Useful for state-wide weather monitoring and reporting."
+        },
+        {
+          "api": "http://localhost:3000/api/weather/one?country=india",
+          "code": "weatherCode",
+          "des": "Fetch weather information for an entire country. This endpoint offers comprehensive weather data including temperature, wind speed, humidity, atmospheric pressure, weather conditions, sunrise and sunset times, UV index, and visibility for a specified country. Essential for applications that need country-wide weather data analysis."
+        }
+      ]
+    },
+    "product": {
+      "apis": [
+        {
+          "api": "http://localhost:3000/api/product/all",
+          "code": {
+            "_id": "667a9cf8c0badc51c4d68ad8",
+            "title": "Wireless Bluetooth Headphones",
+            "description": "High-quality wireless Bluetooth headphones with noise-cancellation and long battery life.",
+            "price": 99.99,
+            "reviews": [
+              {
+                "review": "Great sound quality and very comfortable to wear.",
+                "_id": "667a9cf8c0badc51c4d68ad9"
+              },
+              {
+                "review": "Battery lasts long, but the noise cancellation could be better.",
+                "_id": "667a9cf8c0badc51c4d68ada"
+              }
+            ],
+            "category": "Electronics",
+            "stock": 50,
+            "reviewStar": 4.5,
+            "image": "https://example.com/images/wireless-bluetooth-headphones.jpg",
+            "createdAt": "2024-06-25T10:33:28.710Z",
+            "updatedAt": "2024-06-25T10:33:28.710Z",
+            "__v": 0
+          },
+          "des": "Retrieve a comprehensive list of all available products in the catalog. This API provides detailed information on each product, including title, description, price, reviews, category, stock availability, review ratings, and images. Ideal for applications that require a full overview of the product inventory."
+        },
+        {
+          "api": "http://localhost:3000/api/product/one?id={productId}",
+          "code": {
+            "_id": "667a9cf8c0badc51c4d68ad8",
+            "title": "Wireless Bluetooth Headphones",
+            "description": "High-quality wireless Bluetooth headphones with noise-cancellation and long battery life.",
+            "price": 99.99,
+            "reviews": [
+              {
+                "review": "Great sound quality and very comfortable to wear.",
+                "_id": "667a9cf8c0badc51c4d68ad9"
+              },
+              {
+                "review": "Battery lasts long, but the noise cancellation could be better.",
+                "_id": "667a9cf8c0badc51c4d68ada"
+              }
+            ],
+            "category": "Electronics",
+            "stock": 50,
+            "reviewStar": 4.5,
+            "image": "https://example.com/images/wireless-bluetooth-headphones.jpg",
+            "createdAt": "2024-06-25T10:33:28.710Z",
+            "updatedAt": "2024-06-25T10:33:28.710Z",
+            "__v": 0
+          },
+          "des": "Get detailed information about a specific product by its ID. This endpoint delivers comprehensive details such as the product's title, description, price, reviews, category, stock availability, review ratings, and images. Useful for applications focused on individual product pages or detailed product information."
+        }
+      ]
+    }
+  }
+  
