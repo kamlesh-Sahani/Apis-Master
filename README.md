@@ -1,6 +1,8 @@
 
 # ApisMaster
 
+## Website Link -> https://www.apismaster.com
+
 This project provides a collection of API endpoints categorized into various sections like weather, products, random users, jokes, books, stock, quotes, and YouTube. Each category contains multiple API endpoints along with sample data and descriptions to help you understand the API's functionality.
 
 ## Table of Contents
