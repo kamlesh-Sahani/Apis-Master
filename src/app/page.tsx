@@ -16,7 +16,7 @@ const ApiCard = ({ url, title, Icon, owner, isNew }: ApiCardType) => (
         </button>
       )}
       <Icon className="text-2xl font-bold" />
-      <p className="text-xl font-semibold  text-[#9cadc3]">{title}</p>
+      <h1 className="text-xl font-semibold  text-[#9cadc3]">{title}</h1>
       <p className=" absolute right-3 bottom-2 text-[#9cadc3] font-semibold text-xs">
         {owner}
       </p>

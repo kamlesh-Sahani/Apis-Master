@@ -23,9 +23,9 @@ const ApiCard = ({apiUrl,description,code,owner}:ApiCardType) => {
   return (
     <div className="flex flex-col gap-8 mt-16 max-sm:w-[100vw] max-sm:p-2">
       <div className="flex flex-col gap-4  w-full">
-        <p className=" font-semibold text-[#9cadc3] text-lg text-wrap">
+        <h3 className=" font-semibold text-[#9cadc3] text-lg text-wrap">
           {description}
-        </p>
+        </h3>
 
         <div className="flex justify-between items-center pl-4 bg-[#282A36]  p-5 w-auto">
           <p className="font-semibold text-xl text-[#9cadc3] overflow-x-auto">

@@ -107,7 +107,7 @@ export const apiData: ApiDataType[] = [
     id: 17,
     title: "SpaceX Launches Apis",
     Icon: SiSpacex,
-    url: "/spacex-lounches",
+    url: "/spacex-launches",
     isNew: true,
   },
   {
