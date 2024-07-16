@@ -14,8 +14,9 @@ export async function generateMetadata({ params }: { params: { apiName: string }
     };
   }
 
+
   return {
-    title: apiData.title,
+    title:apiData.title,
     description: apiData.apis[0].des,
   };
 }

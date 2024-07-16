@@ -8,7 +8,10 @@ import { Analytics } from '@vercel/analytics/react';
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Apis Master",
+  title:{
+    template:'%s Api | Api Master',
+    default:'Api Master'
+  },
   description: "Explore comprehensive API documentation for developers. Find RESTful endpoints, examples, and integration guides on Apis Master. Enhance your web projects with our easy-to-use APIs.",
 };
 

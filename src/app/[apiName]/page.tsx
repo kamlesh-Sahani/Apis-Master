@@ -2,8 +2,6 @@
 import ApiCard from "@/components/ApiCard";
 import { codeAndDes } from "../../data/codeAndDes";
 
-
-
 const Page = ({ params }: { params: { apiName: string } }) => {
   function fetchByTitle(title: string) {
     return codeAndDes.find(
@@ -11,7 +9,6 @@ const Page = ({ params }: { params: { apiName: string } }) => {
     );
   }
   const apiData = fetchByTitle(params.apiName);
-
   if (!apiData) {
     return (
       <div className="w-full flex justify-center items-center">
@@ -24,6 +21,7 @@ const Page = ({ params }: { params: { apiName: string } }) => {
 
   return (
     <div className="w-full flex justify-center items-center max-sm:justify-start max-sm:items-start ">
+  
       <div className="w-9/12 max-sm:w-full">
         {apiData?.apis.map((api, index) => (
           <ApiCard
@@ -39,4 +37,3 @@ const Page = ({ params }: { params: { apiName: string } }) => {
 };
 
 export default Page;
-
