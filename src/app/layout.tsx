@@ -14,7 +14,6 @@ export const metadata: Metadata = {
   },
   description: "Explore comprehensive API documentation for developers. Find RESTful endpoints, examples, and integration guides on Apis Master. Enhance your web projects with our easy-to-use APIs.",
 };
-
 export default function RootLayout({
   children,
 }: Readonly<{
