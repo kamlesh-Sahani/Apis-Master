@@ -22,6 +22,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <meta name="google-site-verification" content={process.env.NEXT_PUBLIC_GOOGLE_VERIFICATION} />
+      <meta name="google-adsense-account" content={process.env.NEXT_PUBLIC_ADS_GOOGLE}></meta>
       <body className={inter.className}>
         <Header />
         <main className="flex flex-col  h-[100vh] relative">
