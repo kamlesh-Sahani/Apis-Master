@@ -9,7 +9,11 @@ const Footer = () => {
           Apis Master
         </h1>
       </Link>
-
+<div>
+<li><Link href="/privacy-policy" className=" text-blue-600 underline">Privacy Policy</Link></li>
+        <li><Link href="/terms-conditions" className=" text-blue-600 underline">Terms & Conditions</Link></li>
+        <li><Link href="/disclaimer" className=" text-blue-600 underline">Disclaimer</Link></li>
+</div>
       <div className="flex gap-6">
         <Link
           href="https://www.linkedin.com/in/kamlesh-sahani-692ab7247"

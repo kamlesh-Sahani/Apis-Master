@@ -23,9 +23,9 @@ const Header = () => {
                 Free Apis
               </li>
             </Link>
-            <Link href="https://www.linkedin.com/in/kamlesh-sahani-692ab7247/" target="_blabk">
+            <Link href="/contact">
               <li className=" cursor-pointer  transition-all hover:text-blue-500 max-sm:text-sm">
-                contact
+                contact us
               </li>
             </Link>
             <Link href={"/about"}>
@@ -39,6 +39,8 @@ const Header = () => {
                 Feedback
               </li>
             </Link>
+
+          
           </ul>
         </div>
       </div>
