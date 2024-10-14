@@ -1,0 +1,13 @@
+{
+    "rewrites": [
+      {
+        "source": "/ads.txt",
+        "destination": "/ads.txt"
+      },
+      {
+        "source": "/googlec8eee5168c9ad128.html",
+        "destination": "/googlec8eee5168c9ad128.html"
+      }
+    ]
+  }
+  
